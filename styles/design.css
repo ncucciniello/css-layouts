@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(245,248,251);
+}
+
+nav {
+    line-height: 50px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(236, 238, 241);
+}
+
+ul {
+    display: flex;
+}
+  
+li {
+    width: 110px;
+    flex-shrink: 0;
+    text-align: center;
+    display: inline-block;
+    border-right: 2px solid rgb(245,248,251);
+}
+ 
+li:hover {
+    background: rgb(220, 220, 220);
+}
+
+a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+main {
+    padding: 21px 15px 0 15px;
+}
+
+.tile-header {
+    height: 40px;
+    padding: 5px;
+    background:rgb(176,176,176);
+}
+
+.tile-list {
+    height: 86.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    margin-top: 10px;
+}
+
+.tile {
+    height: 12.1vw;
+    flex: 0 0 16.3%;
+    background: white;
+    padding: 5px;
+    margin: 0 7.5px 7.5px 0;
+}
+
+.tile:nth-child(6n) {
+    margin-right: 0px;
+}
+
+@media (max-width: 1732px) {
+    .tile {
+        height: 15.5vw;
+        flex: 0 0 19.55%;
+    }
+
+    .tile:nth-child(6n) {
+        margin-right: 7.5px;
+    }
+
+    .tile:nth-child(5n) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1425px) {
+    .tile {
+        height: 17.5vw;
+        flex: 0 0 24.4%;
+    }
+
+    .tile:nth-child(5n) {
+        margin-right: 7.5px;
+    }
+
+    .tile:nth-child(4n) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .tile {
+        height: 23.8vw;
+        flex: 0 0 32.7%;
+    }
+
+    .tile:nth-child(4n) {
+        margin-right: 7.5px;
+    }
+
+    .tile:nth-child(3n) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 960px) {
+    .tile-header {
+        width: 925px;
+    }
+
+    .tile-list {
+        width: 925px;
+        display: block;
+        overflow: auto;
+    }
+
+    .tile {
+        width: 300px;
+        height: 228px;
+        display: inline-block;
+    }
+}
