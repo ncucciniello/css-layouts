@@ -13,7 +13,7 @@
 
 body {
     display: flex;
-    height: 98vh;
+    height: 99vh;
     background: var(--body);
 }
 
@@ -182,7 +182,7 @@ main {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 930px) {
     main {
         grid-template-columns: 416px 515px;
     }
