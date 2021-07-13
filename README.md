@@ -5,12 +5,12 @@
 https://ncucciniello.github.io/css-layouts/reader
 
 #### To Do:
-- [x] The Reader
-- [ ] Feed Deck
-- [x] El Classico
-- [ ] Front Hands
-- [ ] News Freak
-- [ ] Left Handed
-- [ ] Design Geek
-- [ ] Cross Eyed
-- [ ] Cockpit
+- [x]  [The Reader](https://ncucciniello.github.io/css-layouts/reader)
+- [ ]  [Feed Deck](https://ncucciniello.github.io/css-layouts/deck)
+- [x]  [El Classico](https://ncucciniello.github.io/css-layouts/classico)
+- [ ]  [Front Hands](https://ncucciniello.github.io/css-layouts/front)
+- [ ]  [News Freak](https://ncucciniello.github.io/css-layouts/news)
+- [ ]  [Left Handed](https://ncucciniello.github.io/css-layouts/left)
+- [ ]  [Design Geek](https://ncucciniello.github.io/css-layouts/design)
+- [ ]  [Cross Eyed](https://ncucciniello.github.io/css-layouts/cross)
+- [ ]  [Cockpit](https://ncucciniello.github.io/css-layouts/cockpit)
